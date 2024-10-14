@@ -3,8 +3,19 @@ import {makeAutoObservable} from "mobx"
 export default class DeviceStore {
     constructor() {
         this._types = [
-            {id:1, name: 'Холодильник'},
-            {id:2, name: 'Смартфон'}
+            {id:1, name: 'Camere de supraveghere'},
+            {id:3, name: 'Căsti'},
+            {id:4, name: 'Smart watch '},
+            {id:5, name: 'Încărcătoare'},
+            {id:6, name: 'Auto'},
+            {id:7, name: 'Cartele de memorie '},
+            {id:8, name: 'Baterii externe'},
+            {id:9, name: 'Accesoare telefoane'},
+            {id:10, name: 'Protecție smartphone'},
+            {id:11, name: 'Boxe'},
+            {id:12, name: 'Tehnică de uz casnic'},
+            {id:13, name: 'Iluminare'},
+            {id:14, name: 'Accesorii PC'}
         ]
         this._brands = [
             {id:1, name: 'Samsung'},
